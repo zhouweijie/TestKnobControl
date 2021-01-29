@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "KnobControl"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2" 
+  spec.platform     = :ios, "12.0"
 end
